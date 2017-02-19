@@ -1,0 +1,40 @@
+body {
+   background: url('bg.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+}
+
+
+.login-center {
+   min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+   min-height: 80vh; /* These two lines are counted as one :-)       */
+   display: flex;
+   align-items: center;
+}
+
+.register-center {
+   min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+   min-height: 90vh; /* These two lines are counted as one :-)       */
+   display: flex;
+   align-items: center;
+}
+
+.panel-opacity {
+   opacity: .8;
+}
+
+.panel-shadow {
+   -webkit-box-shadow: 0px 3px 37px 6px rgba(0,0,0,0.75);
+   -moz-box-shadow: 0px 3px 37px 6px rgba(0,0,0,0.75);
+   box-shadow: 0px 3px 37px 6px rgba(0,0,0,0.75);
+}
+
+.radiusless {
+   border-radius: 0;
+}
+
+.more-radius {
+   border-radius: 10px;
+}
